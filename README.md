@@ -2,7 +2,7 @@
 
 > 为新手学习的react-cli
 
-集成github actions
+[document](https://www.yuque.com/abu0418/uf2dbz/kou877)
 
 ## example
 
@@ -17,3 +17,17 @@ yarn
 
 yarn start
 ```
+
+## 内置的工具
+- [x]  react-router
+- [x] react-redux
+- [x] antd
+- [x] antd-proComponent
+- [x] craco
+- [x] github-actions
+
+## 待开发
+
+- [ ] axios
+- [ ] eslint
+- [ ] jest
