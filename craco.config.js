@@ -14,7 +14,7 @@ module.exports = {
           //   chunkFilename: 'static/js/[name].js'
           // },
           path: path.resolve(__dirname, 'dist'), // 修改输出文件目录
-          publicPath: '/react-whole-cli'
+          publicPath: process.env.NODE_ENV === 'development'? '/' : '/react-whole-cli'
       }
       return webpackConfig
     }
