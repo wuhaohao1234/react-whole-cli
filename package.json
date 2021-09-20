@@ -21,7 +21,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "lint": "npx eslint ./src",
+    "fix": "npx eslint --fix ./src"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +47,8 @@
     "@craco/craco": "^6.2.0",
     "commander": "^8.2.0",
     "craco-less": "^1.20.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.3",
     "shelljs": "^0.8.4"
   }
 }

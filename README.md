@@ -29,5 +29,5 @@ yarn start
 ## 待开发
 
 - [ ] axios
-- [ ] eslint
+- [x] eslint
 - [ ] jest
