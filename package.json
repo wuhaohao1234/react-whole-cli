@@ -25,6 +25,9 @@
     "lint": "npx eslint ./src",
     "fix": "npx eslint --fix ./src"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -49,6 +52,7 @@
     "craco-less": "^1.20.0",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.25.3",
+    "pre-commit": "^1.2.2",
     "shelljs": "^0.8.4"
   }
 }
